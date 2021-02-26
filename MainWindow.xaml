@@ -1,0 +1,36 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="293.578" Width="234.726">
+    <Grid Margin="0,0,-22,0">
+        <Grid>
+            <Grid Margin="10">
+                <TextBox TextWrapping="Wrap" x:Name="output" HorizontalAlignment="Left" Width="198" Height="37" VerticalAlignment="Top"/>
+                <Button Content="MC" HorizontalAlignment="Left" Margin="0,44,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="clear"/>
+                <Button Content="NEG" HorizontalAlignment="Left" Margin="51,44,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="neg"/>
+                <Button Content="/" HorizontalAlignment="Left" Margin="102,44,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="divide"/>
+                <Button Content="*" HorizontalAlignment="Left" Margin="153,44,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="star"/>
+                <Button Content="7" HorizontalAlignment="Left" Margin="0,91,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="seven"/>
+                <Button Content="8" HorizontalAlignment="Left" Margin="51,91,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="eight"/>
+                <Button Content="9" HorizontalAlignment="Left" Margin="102,91,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="nine"/>
+                <Button Content="-" HorizontalAlignment="Left" Margin="153,91,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="subtract"/>
+                <Button Content="4" HorizontalAlignment="Left" Margin="0,128,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="four"/>
+                <Button Content="5" HorizontalAlignment="Left" Margin="51,128,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="five"/>
+                <Button Content="6" HorizontalAlignment="Left" Margin="102,128,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="six"/>
+                <Button Content="1" HorizontalAlignment="Left" Margin="0,165,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="one"/>
+                <Button Content="2" HorizontalAlignment="Left" Margin="51,165,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="two"/>
+                <Button Content="3" HorizontalAlignment="Left" Margin="102,165,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="three"/>
+                <Button Content="=" HorizontalAlignment="Left" Margin="153,165,0,0" VerticalAlignment="Top" Width="46" Height="69" Click="equals"/>
+                <Button Content="+" HorizontalAlignment="Left" Margin="152,128,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="add"/>
+                <Button Content="." HorizontalAlignment="Left" Margin="102,202,0,0" VerticalAlignment="Top" Width="46" Height="32" Click="dec"/>
+                <Button Content="0" HorizontalAlignment="Left" Margin="0,202,0,0" VerticalAlignment="Top" Width="97" Height="32" Click="zero"/>
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>
